@@ -1,16 +1,9 @@
 # flutter_app_interactive
 
-A new Flutter application.
+A Flutter application that gives 3 approaches with user interaction.
 
-## Getting Started
+Class TapboxA can manage its own state so it extends StatefulWidget class.
 
-This project is a starting point for a Flutter application.
+Class TapboxB's state is managed by its parent widget so Class TapboxA is StatelessWidget and its parent class extends StatefulWidget.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Class TapBoxC uses a mix-and-match approach. Its border is managed by itself while the color is managed by its parent class.
