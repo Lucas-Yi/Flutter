@@ -8,6 +8,6 @@ Class TapboxB's state is managed by its parent widget so Class TapboxA is Statel
 
 Class TapBoxC uses a mix-and-match approach. Its border is managed by itself while the color is managed by its parent class.
 
-[Sample 1](sample1.png)
-[Sample 2](sample2.png)
-[Sample 3](sample3.png)
+![Sample 1](sample1.jpg)
+![Sample 2](sample2.jpg)
+![Sample 3](sample3.jpg)
